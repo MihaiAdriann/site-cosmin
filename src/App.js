@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Category from './Pages/Category';
+import Products from './Pages/Products';
+import Login from './Pages/Login';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+/*   const PrivateRoute = ({ element, ...rest }) => {
+    return isLoggedIn ? (
+      <Route {...rest} element={element} />
+    ) : (
+      <Navigate to="/" replace={true} /> 
+    );
+  }; */
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/category" element={<Category />}  />
+        <Route path="/products"  element={<Products />} />
+      </Routes>
     </div>
   );
 }
