@@ -29,7 +29,7 @@ function Login({ setIsLoggedIn }) {
               <MDBInput
                 wrapperClass='mb-4 mx-5 w-100'
                 labelClass='text-white'
-                label='Email address'
+                label='User'
                 id='formControlLg'
                 type='email'
                 size="lg"
@@ -53,7 +53,8 @@ function Login({ setIsLoggedIn }) {
                 Login
               </MDBBtn>
 
-              <div className='d-flex flex-row mt-3 mb-5'>
+              {/* FACEBOOK , ETC LOGARE 
+               <div className='d-flex flex-row mt-3 mb-5'>
                 <MDBBtn tag='a' color='none' className='m-3' style={{ color: 'white' }}>
                   <MDBIcon fab icon='facebook-f' size="lg" />
                 </MDBBtn>
@@ -65,7 +66,7 @@ function Login({ setIsLoggedIn }) {
                 <MDBBtn tag='a' color='none' className='m-3' style={{ color: 'white' }}>
                   <MDBIcon fab icon='google' size="lg" />
                 </MDBBtn>
-              </div>
+              </div> */}
 
               <div>
                 <p className="mb-0">Don't have an account? <a href="#!" className="text-white-50 fw-bold">Sign Up</a></p>

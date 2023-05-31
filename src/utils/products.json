@@ -1,0 +1,82 @@
+{
+    "Bere Neagra": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Silva neagra",
+                "price": 7,
+                "currency": "LEI",
+                "image": "https://imgur.com/vr2aTAd",
+               
+                "colour": "Negra",
+             
+                "brand": "Silva",
+                "description": "Bere neagra silva STRONG."
+            }
+            
+        ],
+        "image": "https://i.imgur.com/5B4RjNe.jpg",
+        "name": "Bere Neagra",
+        "description": "Bere rafinata , Bere tip Neagra"
+    },
+    "Bere": {
+        "items": [
+            {
+                "id": 4,
+                "name": " Tuborg",
+                "price": 5,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/MIaHNYF.jpg",
+        
+                "colour": "Blonda",
+                "brand": "Tuborg",
+                "description": "Bere Blonda Tuborg."
+            }
+        ],
+        "image": "https://i.imgur.com/RbfsBIM.png",
+        "name": "Bere Blonda",
+        "description": "Bere superioara Blonda."
+    },
+    "Cidru": {
+        "items": [
+            {
+                "id": 8,
+                "name": "Cidru Mandru",
+                "price": 35,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/B2uWKmH.jpg",
+           
+      
+                "material": "Mere",
+                "brand": "Cocosul Dp Sticla",
+                "description": "CEl mai mandru CIdru din parcare"
+            },
+            {
+                "id": 9,
+                "name": "Cidru de pere",
+                "price": 40,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/Oqk908d.jpg",
+
+                "material": "Pere",
+                "brand": "Strongbow",
+                "description": "CIdru de pere"
+            },
+            {
+                "id":10,
+                "name": "Cidru de afine",
+                "price": 40,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/dF6oOAz.jpg",
+
+                "material": "Pere",
+                "brand": "Dacia",
+                "description": "Lupul de pe steag urla in tine sa-i dai un cidru , un cidru DACIC"
+            }
+        ],
+        "image": "https://i.imgur.com/egy8nvU.jpg",
+        "name": "Cidru",
+        "description": "Minunatul suc transformat in bautura alcoolica puternic aromata"
+    }
+   
+}

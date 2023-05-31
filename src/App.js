@@ -8,7 +8,8 @@ import Login from './Pages/Login';
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-/*   const PrivateRoute = ({ element, ...rest }) => {
+/*  Pentru a putea intra pe pagina de category / product doar daca esti ligat , dar nu mi-a iesit 
+ const PrivateRoute = ({ element, ...rest }) => {
     return isLoggedIn ? (
       <Route {...rest} element={element} />
     ) : (
